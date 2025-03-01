@@ -1,4 +1,4 @@
-﻿控件分类,控件英文缩写,英文全称,,资产词典,资产英文缩写,英文全称
+﻿控件分类,英文缩写,英文全称,,资产词典,英文缩写,英文全称
 特效,Eff,effect,,扑克牌,Card,
 按钮,Btn,button,,扑克桌,Table,
 进度条（滑动器）,Slider,,,麻将牌,Mjcard,
@@ -51,11 +51,6 @@
 ,,,,图片,Img,
 ,,,,金币,Gold,
 ,,,,钻石,Diamond,
-,,,,上,Top,
-,,,,下,Bottom,
-,,,,左,Left,
-,,,,右,Right,
-,,,,中,Middle,
 ,,,,标签,Tab,
 ,,,,程序字,Txt,
 ,,,, 图形,Graph,Graphics
@@ -68,3 +63,8 @@
 ,,,,金,Gold,Gold
 ,,,,银,Silver,Silver
 ,,,,铜,Copper,Copper
+,,,,上,Top,
+,,,,下,Bottom,
+,,,,左,Left,
+,,,,右,Right,
+,,,,中,Middle,
