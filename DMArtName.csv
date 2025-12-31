@@ -1,31 +1,35 @@
-﻿分类 (Category),细分 (Sub-Cat),前缀 (Prefix),,词典分类,中文 (CN),缩写 (Abbr),备注 (Note),,,,,命名公式 (Syntax Formula),示例 (Example)
-战斗资源,子弹-元素,blt,,元素 (Element),物理,phy,Physical,,,,,blt_[Element]_[Shape]_[Level],blt_fire_ball_v1.png (1级火球)
-战斗资源,子弹-融合,blt_mix,,元素 (Element),火焰,fire,Fire/Burn,,,,,blt_mix_[Ele1][Ele2]_[Name],blt_mix_iceltg_storm.png (冰雷风暴)
-战斗资源,子弹-物理,blt_phy,,元素 (Element),冰霜,ice,Ice/Freeze,,,,,blt_phy_[Weapon]_[Variant],blt_phy_pistol_spread.png (手枪散射)
-战斗资源,特效-命中,vfx_hit,,元素 (Element),毒素,psn,Poison,,,,,vfx_hit_[Element]_[Size],vfx_hit_ice_s.prefab (冰系小受击)
-战斗资源,特效-状态,vfx_buff,,元素 (Element),雷电,ltg,Lightning (缩写),,,,,vfx_buff_[Name]_[Target],vfx_buff_shield_hero.prefab (主角护盾)
-怪物资源,小怪,mon_s,,元素 (Element),风/气,wnd,Wind,,,,,mon_s_[Body]_[Job]_[ID]_[Action],mon_s_hum_sd_01_run.anim (人形剑盾)
-怪物资源,精英,mon_e,,元素 (Element),融合,mix,Combination,,,,,mon_e_[Body]_[Job]_[ID]_[Action],mon_e_8leg_psn_02_atk.anim (八足毒蜘蛛)
-怪物资源,BOSS,mon_b,,怪物体型 (Body),人形,hum,Humanoid,,,,,mon_b_[Name]_[Phase]_[Action],mon_b_butcher_p1_skill.anim (屠夫P1)
-角色资源,主角本体,chr_hero,,怪物体型 (Body),四足,4leg,Quadruped (犬/狼),,,,,chr_hero_[ID]_[Skin]_[Action],chr_hero_01_cyber_run.anim
-角色资源,武器挂件,chr_wpn,,怪物体型 (Body),六足,6leg,Hexapod (甲虫),,,,,chr_wpn_[Type]_[ID]_[Action],chr_wpn_gun_05_fire.png
-角色资源,载具/座驾,chr_veh,,怪物体型 (Body),八足,8leg,Octopod (蜘蛛),,,,,chr_veh_[Type]_[ID]_[Action],chr_veh_mech_01_fly.png
-界面资源,技能图标,ico_skill,,怪物体型 (Body),无关节,noj,No-Joint (史莱姆),,,,,ico_skill_[Element]_[Name],ico_skill_fire_meteor.png
-界面资源,通用组件,ui_com,,怪物体型 (Body),飞行,fly,Flying,,,,,ui_com_[Control]_[Style]_[State],ui_com_btn_yellow_n.png
-界面资源,系统面板,ui_sys,,怪物职业 (Job),近战-剑盾,sd,Sword & Shield,,,,,ui_sys_[SysName]_[Part],ui_sys_shop_bg.png
-场景资源,地图,env_map,,怪物职业 (Job),近战-单手,1h,One-Handed,,,,,env_map_[Theme]_[Type],env_map_grass_corner.png
-场景资源,地图装饰物,env_prop,,怪物职业 (Job),近战-双手,2h,Two-Handed,,,,,env_prop_[Theme]_[Name],env_prop_city_ruin.png
-,,,,怪物职业 (Job),近战-棍棒,clb,Club/Stick,,,,,,
-,,,,怪物职业 (Job),远程-弓手,bow,Archer,,,,,,
-,,,,怪物职业 (Job),远程-法师,mag,Mage,,,,,,
-,,,,怪物职业 (Job),远程-召唤,sum,Summoner,,,,,,
-,,,,怪物阶级 (Rank),小怪,s,Small/Minion,,,,,,
-,,,,怪物阶级 (Rank),精英,e,Elite,,,,,,
-,,,,怪物阶级 (Rank),BOSS,b,Boss,,,,,,
-,,,,动作 (Action),待机/移动,idle / run,,,,,,,
-,,,,动作 (Action),攻击/受击,atk / hit,,,,,,,
-,,,,动作 (Action),死亡/施法,die / cast,,,,,,,
-,,,,UI控件 (Control),按钮,btn,Button,,,,,,
-,,,,UI控件 (Control),图标,ico,Icon,,,,,,
-,,,,UI控件 (Control),进度条,bar,Progress Bar,,,,,,
-,,,,UI控件 (Control),背景,bg,Background,,,,,,
+﻿分类 (Category),细分 (Sub-Cat),前缀 (Prefix),,词典分类,中文 (CN),缩写 (Abbr),备注 (Note)
+子弹,子弹本体,blt,,物理 (Element),物理,phy,Physical
+子弹,子弹爆点,blt_mix,,元素 (Element),火,fire,Fire/Burn
+子弹,子弹buff,blt_phy,,元素 (Element),冰,ice,Ice/Freeze
+子弹,子弹dbuff,vfx_hit,,元素 (Element),毒,psn,Poison
+子弹,特效-状态,vfx_buff,,元素 (Element),雷,ltg,Lightning (缩写)
+怪物,小怪,mon_s,,元素 (Element),风,wnd,Wind
+怪物,精英,mon_e,,元素 (Element),风,wnd,Wind
+怪物,BOSS,mon_b,,元素 (Element),融合,mix,Combination
+角色,主角本体,chr_hero,,怪物体型 (Body),人形,hum,Humanoid
+角色,武器挂件,chr_wpn,,怪物体型 (Body),四足,4leg,Quadruped (犬/狼)
+角色,载具/座驾,chr_veh,,怪物体型 (Body),六足,6leg,Hexapod (甲虫)
+界面,技能图标,ico_skill,,怪物体型 (Body),八足,8leg,Octopod (蜘蛛)
+界面,通用组件,ui_com,,怪物体型 (Body),无关节,noj,No-Joint (史莱姆)
+界面,系统面板,ui_sys,,怪物体型 (Body),飞行,fly,Flying
+图标,子弹图标,ico_blt,,怪物职业 (Job),近战-剑盾,sd,Sword & Shield
+场景,地图,env_map,,怪物职业 (Job),近战-单手,1h,One-Handed
+场景,地图装饰物,env_prop,,怪物职业 (Job),近战-双手,2h,Two-Handed
+,,,,怪物职业 (Job),近战-棍棒,clb,Club/Stick
+,,,,怪物职业 (Job),远程-弓手,bow,Archer
+,,,,怪物职业 (Job),远程-法师,mag,Mage
+,,,,怪物职业 (Job),远程-召唤,sum,Summoner
+,,,,怪物阶级 (Rank),小怪,s,Small/Minion
+,,,,怪物阶级 (Rank),精英,e,Elite
+,,,,怪物阶级 (Rank),BOSS,b,Boss
+,,,,动作 (Action),待机,idle,
+,,,,动作 (Action),攻击,atk,
+,,,,动作 (Action),死亡,die,
+,,,,动作 (Action),移动,irun,
+,,,,动作 (Action),受击,hit,
+,,,,动作 (Action),施法,cast,
+,,,,UI控件 (Control),按钮,btn,Button
+,,,,UI控件 (Control),图标,ico,Icon
+,,,,UI控件 (Control),进度条,bar,Progress Bar
+,,,,UI控件 (Control),背景,bg,Background
